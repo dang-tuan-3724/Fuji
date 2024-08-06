@@ -1,0 +1,32 @@
+.navbar .logo{
+    width: 50px;
+    height: 50px;
+
+}
+.navbar{
+    display: flex;
+    padding: 10px 10px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    margin: 20px;
+    border-radius: 20px;
+}
+.navbar-menu{
+    display: flex;
+    list-style-type: none;
+    gap: 40px;
+    font-size: 18px;
+    color:aliceblue;
+}
+.navbar button{
+    background-color: aliceblue;
+    border: 1px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.navbar .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid white;
+}

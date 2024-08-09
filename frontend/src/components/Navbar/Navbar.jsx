@@ -15,7 +15,7 @@ const Navbar = () => {
             <li className={menu==="Chart"?"active":""}>Chart</li>
         </ul>
         <div className="navbar-right">
-            <button>Login</button>
+            <button className="nav-button">Login</button>
         </div>
     </div>
   )

@@ -19,13 +19,17 @@
     font-size: 18px;
     color:aliceblue;
 }
-.navbar button{
+.nav-button{
     background-color: aliceblue;
     border: 1px;
     padding: 10px 30px;
     border-radius: 50px;
     cursor: pointer;
 }
+.nav-button:hover{
+width: 100px;
+}
+
 .navbar .active{
     padding-bottom: 2px;
     border-bottom: 2px solid white;

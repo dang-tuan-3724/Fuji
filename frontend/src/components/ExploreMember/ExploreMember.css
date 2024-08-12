@@ -9,7 +9,7 @@
     font-weight: 600;
 }
 .explore-member-text{
-    max-width: 60%;
+    max-width: 90%;
     columns: rgb(152, 127, 127);
 }
 .explore-member-list{
@@ -28,8 +28,8 @@
     width: 7.5vw;
     min-width: 80%;
     cursor: pointer;
-    border-radius: 50px;
     transition: 0.2s;
+    border-radius: 40%;  
 }
 .explore-member-list-item p{
     margin-top: 10px;
@@ -43,4 +43,9 @@
     background-color: rgb(199, 198, 198);
     border: none;
     border-radius: 10px;
+}
+.explore-member-list-item .active{
+    border: 3px solid rgb(0, 255, 128);
+    border-radius: 50%;
+    padding: 2px;
 }

@@ -3,7 +3,9 @@ import './ExploreMember.css'
 import { menu_list } from '../../assets/assets'
 
 
-const ExploreMember = () => {
+const ExploreMember = ({category, setCategory}) => {
+
+
   return (
     <div className='explore-member' id='explore-member'>
         <h1>Danh sách thành viên</h1>
@@ -11,8 +13,8 @@ const ExploreMember = () => {
         <div className="explore-member-list">
             {menu_list.map((item, index)=>{
                 return (
-                    <div key={index} className='explore-member-list-item'>
-                        <img src={item.menu_image} alt="" />
+                    <div onClick={()=>setCategory(prev=>prev===item.menu_name?"All":item.menu_name)} key={index} className='explore-member-list-item'>
+                        <img className={category===item.menu_name?"active":""} src={item.menu_image} alt="" />
                         <p>{item.menu_name}</p>
                     </div>
                 )

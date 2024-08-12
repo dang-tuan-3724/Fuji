@@ -19,18 +19,25 @@
     font-size: 18px;
     color:aliceblue;
 }
-.nav-button{
-    background-color: aliceblue;
-    border: 1px;
-    padding: 10px 30px;
+.navbar button{
+    background: white;
+    font-size: 16px;
+    border: 1px solid black;
+    width: 90px;
+    height: 40px;
     border-radius: 50px;
-    cursor: pointer;
-}
-.nav-button:hover{
-width: 100px;
-}
+    font-weight: 500;
 
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.navbar button:hover{
+    background-color: #C84B31;
+    color: white;
+    width: 110px;
+    border: 1px solid #C84B31;
+}
 .navbar .active{
     padding-bottom: 2px;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid #49557e;
 }

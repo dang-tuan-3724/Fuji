@@ -84,19 +84,19 @@ export const assets = {
 
 export const menu_list = [
     {
-        menu_name: "Salad",
+        menu_name: "Ban chủ nhiệm",
         menu_image: menu_1
     },
     {
-        menu_name: "Rolls",
+        menu_name: "Ban truyền thông",
         menu_image: menu_2
     },
     {
-        menu_name: "Deserts",
+        menu_name: "Ban chuyên môn",
         menu_image: menu_3
     },
     {
-        menu_name: "Sandwich",
+        menu_name: "Ban tổ chức sự kiện",
         menu_image: menu_4
     },
     {
@@ -119,7 +119,7 @@ export const menu_list = [
 export const food_list = [
     {
         _id: "1",
-        name: "Greek salad",
+        name: "HDAT",
         image: food_1,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",

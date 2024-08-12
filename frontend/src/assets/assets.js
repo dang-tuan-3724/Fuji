@@ -2,17 +2,17 @@ import basket_icon from './basket_icon.png'
 import logo from './logo.png'
 import header_img from './header_img.png'
 import search_icon from './search_icon.png'
-import menu_1 from './menu_1.png'
-import menu_2 from './menu_2.png'
-import menu_3 from './menu_3.png'
-import menu_4 from './menu_4.png'
+import menu_1 from './HDAT.png'
+import menu_2 from './HDAT.png'
+import menu_3 from './HDAT.png'
+import menu_4 from './HDAT.png'
 import menu_5 from './menu_5.png'
 import menu_6 from './menu_6.png'
 import menu_7 from './menu_7.png'
 import menu_8 from './menu_8.png'
 
-import food_1 from './food_1.png'
-import food_2 from './food_2.png'
+import food_1 from './HDAT_1.png'
+import food_2 from './yen.png'
 import food_3 from './food_3.png'
 import food_4 from './food_4.png'
 import food_5 from './food_5.png'
@@ -84,19 +84,19 @@ export const assets = {
 
 export const menu_list = [
     {
-        menu_name: "Salad",
+        menu_name: "Ban Chủ nhiệm",
         menu_image: menu_1
     },
     {
-        menu_name: "Rolls",
+        menu_name: "Ban truyền thông",
         menu_image: menu_2
     },
     {
-        menu_name: "Deserts",
+        menu_name: "Ban tổ chức sự kiện",
         menu_image: menu_3
     },
     {
-        menu_name: "Sandwich",
+        menu_name: "Ban chuyên môn",
         menu_image: menu_4
     },
     {
@@ -119,33 +119,33 @@ export const menu_list = [
 export const food_list = [
     {
         _id: "1",
-        name: "Greek salad",
+        name: "Hoàng Đình Anh Trung",
         image: food_1,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        description: "Hơi khùng, xấu tính nhưng tốt tính với bạn bè, -100 điểm",
+        category: "Ban Chủ nhiệm"
     },
     {
         _id: "2",
-        name: "Veg salad",
+        name: "Nguyễn Thị Ngọc Yến",
         image: food_2,
         price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        description: "Bé này dễ thương, trưởng hộ anti HDAT",
+        category: "Ban Chủ nhiệm"
     }, {
         _id: "3",
         name: "Clover Salad",
         image: food_3,
         price: 16,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        category: "Ban Chủ nhiệmx"
     }, {
         _id: "4",
         name: "Chicken Salad",
         image: food_4,
         price: 24,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        category: "Ban Chủ nhiệmx"
     }, {
         _id: "5",
         name: "Lasagna Rolls",

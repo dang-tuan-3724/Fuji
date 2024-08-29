@@ -130,7 +130,7 @@ export const food_list = [
         name: "Nguyễn Thị Ngọc Yến",
         image: food_2,
         price: 18,
-        description: "Bé này dễ thương, trưởng hộ anti HDAT",
+        description: "Bé này dễ thương, trưởng hội anti HDAT",
         category: "Ban Chủ nhiệm"
     }, {
         _id: "3",

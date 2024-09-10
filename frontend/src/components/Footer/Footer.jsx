@@ -9,7 +9,7 @@ const Footer = () => {
                 <img src={assets.logo} alt="" />
                 <p>CLB Tiếng Nhật FUJI BKHCM - 藤クラブ</p>
                 <div className="footer-social-icons">
-                    <img src={assets.facebook_icon} alt="" />
+                    <img src={assets.facebook_icon} alt=""></img>
                     <img src={assets.twitter_icon} alt="" />
                     <img src={assets.linkedin_icon} alt="" />
                 </div>

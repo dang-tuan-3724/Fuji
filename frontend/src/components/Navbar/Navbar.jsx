@@ -5,15 +5,15 @@ import { Link } from 'react-router-dom'
 
 
 const Navbar = ({setShowLogin}) => {
-    const [menu, setMenu] = useState("Home")
+    const [menu, setMenu] = useState("Trang chủ")
   return (
     <div className='navbar'>
         <img src={assets.logo} alt="" className="logo" />
         <ul className="navbar-menu">
-            <Link to='./' onClick={()=>setMenu("Home")} className={menu==="Home"?"active":""}>Home</Link>
-            <a href='#explore-member' onClick={()=>setMenu("Member")} className={menu==="Member"?"active":""}>Member</a>
+            <Link to='./' onClick={()=>setMenu("Trang chủ")} className={menu==="Trang chủ"?"active":""}>Trang chủ</Link>
+            <a href='#explore-member' onClick={()=>setMenu("Thành viên")} className={menu==="Thành viên"?"active":""}>Thành viên</a>
             <a href='#' onClick={()=>setMenu("Check")} className={menu==="Check"?"active":""}>Check</a>
-            <a href='#' onClick={()=>setMenu("Chart")} className={menu==="Chart"?"active":""}>Chart</a>
+            <a href='#' onClick={()=>setMenu("Sự kiện sắp diễn ra")} className={menu==="Sự kiện sắp diễn ra"?"active":""}>Sự kiện sắp diễn ra</a>
         </ul>
         <div className="navbar-right">
             <button className="nav-button" onClick={()=>setShowLogin(true)}>Login</button>

@@ -1,0 +1,18 @@
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 10px;
+    border-radius: 20px;
+}
+.logo{
+    width: max(4%,50px);
+}
+.navbar .profile-image{
+    width: 40px;
+}
+.navbar-title{
+    color:white;
+}

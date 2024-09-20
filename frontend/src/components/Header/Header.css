@@ -17,7 +17,7 @@
     height: 40vw;
     background: url('/header_img.png') no-repeat center;
     background-size: contain;
-    position: relative;
+    position:relative;
     color: white;
     text-shadow: 0 0 0.9em #000000;
 }

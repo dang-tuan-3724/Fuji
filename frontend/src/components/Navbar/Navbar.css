@@ -93,3 +93,38 @@
     }
 
 }
+.navbar-profile{
+    position: relative;
+
+}
+.nav-profile-dropdown{
+    position: absolute;
+    display: none;
+    right: 0;
+    z-index: none;
+}
+.navbar-profile:hover .nav-profile-dropdown{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #ffffff;
+    padding: 12px 25px;
+    border-radius: 15px;
+    border: 3px solid tomato;
+    outline: 2px solid white;
+    list-style: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+.nav-profile-dropdown li{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.nav-profile-dropdown img{
+    width: 20px;
+}
+.nav-profile-dropdown li:hover{
+    color:tomato;
+    font-weight: 700;
+}

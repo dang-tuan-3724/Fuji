@@ -5,9 +5,14 @@ export const StoreContext = createContext(null)
 
 const StoreContextProvider = (props) =>{
     
+    const url = "http://localhost:4000";
+    const [token,setToken] = useState("");
 
     const contextValue = {
         food_list,
+        url,
+        token,
+        setToken
     }
     return (
         <StoreContext.Provider value={contextValue}>

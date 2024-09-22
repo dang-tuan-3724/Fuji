@@ -4,11 +4,11 @@ import { StoreContext } from '../../context/StoreContext';
 import { assets } from '../../assets/assets';
 
 const FoodItem = ({id, name, price, description,image }) => {
-
+const {url} = useContext(StoreContext);
   return (
     <div className='food-item'>
         <div className="food-item-img-container">
-            <img className='food-item-image' src={image} alt="" />            
+            <img className='food-item-image' src={url+"/images/"+image} alt="" />            
         </div>
         <div className="food-item-infor">
             <div className="food-item-name-rating">

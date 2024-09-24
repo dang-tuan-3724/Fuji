@@ -15,7 +15,7 @@
 .header{
     margin: 30px auto;
     height: 40vw;
-    background: url('https://photos.fife.usercontent.google.com/pw/AP1GczNf7Htz5cbOxNTJXEwVRVRPDdg2SEU1hyztgNgtPIPOLNrXAfO0ruCr_g=w1154-h866-s-no-gm?authuser=0') no-repeat center;
+    background: url('/header_img.png') no-repeat center;
     background-size: contain;
     position:relative;
     color: white;
